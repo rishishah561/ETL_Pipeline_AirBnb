@@ -53,6 +53,8 @@ df_transformed = df.withColumn('price', df['price'].cast(IntegerType()))
 # Save transformed data to S3
 df_transformed.write.csv('s3://new-york-city-airbnb-2023/NYC-airbnb-2023/transformed-data/')
 
+```python
+
 ## Final Outputs:
 - **Cleaned Data**: The transformed data is saved in CSV format in the `transformed-data` folder of the S3 bucket. The folder contains the following CSV files:
   - **airbnb-dataframe.csv**: Contains the transformed Airbnb listing data with correct data types.
