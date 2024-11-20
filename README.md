@@ -10,7 +10,7 @@ This project implements an **ETL (Extract, Transform, Load)** pipeline for proce
 
 - **IAM (Identity and Access Management)** roles define the permissions required for AWS services to access resources.
 - We created a role with **AdministratorAccess** to allow AWS Glue to perform operations like reading from and writing to S3.
-![image](https://github.com/user-attachments/assets/d7d17775-5556-4957-8a4f-ff2384e24f70)
+
 
 ### Step 2: Create an S3 Bucket for Data Storage
 
