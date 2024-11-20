@@ -22,6 +22,9 @@ This project implements an **ETL (Extract, Transform, Load)** pipeline for proce
   - Folder for raw data: `NYC-airbnb-2023/row-data`
   - Folder for transformed data: `NYC-airbnb-2023/transformed-data`
 
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/845899b2-5b4c-4dc2-bef8-fd7ba3c9eeb7">
+
+
 ### Step 3: Set up AWS Glue Database and Table
 
 - **AWS Glue** is used to catalog the data and run ETL jobs. The data from S3 is crawled to create a schema.
