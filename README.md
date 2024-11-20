@@ -68,6 +68,9 @@ df_transformed.write.csv('s3://new-york-city-airbnb-2023/NYC-airbnb-2023/transfo
   - **count-room-type.csv**: Contains the counts of different room types available in the dataset.
   - **total-earn-room-type.csv**: Contains the total earnings calculated for each room type.
   - **droping.csv**: Contains the dataset with columns dropped due to a high number of null values.
+ 
+    ![image](https://github.com/user-attachments/assets/17264b36-26f0-4b89-920d-2b63fc844d59)
+
 
 ## Conclusions:
 - **Data Transformation**: The transformed dataset provides clean, consistent data that can be easily used for analysis and machine learning tasks. The transformation process ensured that columns had appropriate data types and unnecessary columns were removed.
